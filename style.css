@@ -1,0 +1,161 @@
+img{
+	width:100%;
+	height:auto;
+}
+section{
+	width:100%;
+	height:1000px;
+}
+div{
+	width:100%
+	height:auto;
+}
+body{
+	background-color:rgb(24,25,28);
+	list-style: none;
+}
+.navigacija{
+	display:block;
+}
+.logo img{
+	width:130px;
+	height:36px;
+	display:inline;
+
+}
+nav ul li{
+	display:inline;
+}
+nav{
+	position:absolute;
+	top:0px;
+	left:150px;
+	margin:0px;
+	padding:0px;
+
+}
+nav ul{
+	padding-top:0px;
+	padding-left:4px;
+}
+
+nav li{
+	padding-left: 10px;
+}
+nav ul li a{
+	text-decoration:none;
+	color:white;
+}
+.login{
+	
+	position:absolute;
+	top:0px;
+	right:0px;
+	color:white;
+	
+
+}
+.login ul li {
+	display:inline;
+	padding-left:7px;
+
+}
+.login a{
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+}
+/*section*/
+.container{
+	display:block;
+	max-width:1000px;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:100px;
+
+}
+.container h1{
+	text-align: center;
+	font-family:tahoma;
+	color:white;
+	font-size:30px;
+}
+.container p{
+	text-align: center;
+	font-family:tahoma;
+	color:rgb(174,160,220);
+	font-size:14px;
+}
+.button{
+	margin-right: auto;
+	margin-left: auto;
+	
+	width:30%;
+}
+.button:hover{
+	opacity:0.3;
+}
+input[type=button]{
+	padding:10px;
+	background-color:rgb(174,160,220);
+	border:1px solid rgb(188,136,236);
+	border-radius:5px;
+	font-family:tahoma;
+}
+/*Slike*/
+.monitor{
+	position:absolute;
+	top:96%;
+	left:34%;
+	width:30%;
+}
+.tablet{
+	position:absolute;
+	top:110%;
+	left:55%;
+	width:30%;
+}
+.telefon {
+	position:absolute;
+	top:120%;
+	left:30%;
+	width:7%;
+}
+.telefon2 {
+	position:absolute;
+	top:118%;
+	left:22%;
+	width:7%;
+}
+.znak{
+	position:relative;
+	top:400px;
+	left:20%;
+	width:5%;
+	animation-name: example;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes example {
+    0%   {left:20%; top:200px;}
+    50%  {left:20%; top:250px;}
+    100% {left:20%; top:200px;}
+}
+/*Footer*/
+footer h3{
+	color:white;
+	font-size:30px;
+	padding-bottom:0px;
+}
+footer p{
+	color:rgb(174,160,220);
+	font-size:15px;
+	padding-top:0px;
+	margin-top:0px;
+
+}
+
+	
